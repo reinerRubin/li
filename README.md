@@ -1,14 +1,10 @@
 # li
 ```
-$ cat /tmp/stat | head | li
- 795 ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■  "AU"
- 511 ■■■■■■■■■■■■■■■■■■■             "AT"
- 179 ■■■■■■                          "AR"
-  20 ■                               "AL"
-  13 ■                               "AF"
-   9 ■                               "AE"
-   6 ■                               "AO"
-   4 ■                               "AW"
-   4 ■                               "AM"
-   3 ■                               "AI"
+$ # li must be useful after classic "sort | uniq -c" combo
+$ go get github.com/reinerRubin/li/cmd/li
+$ perl -le 'map { print } split "", "bddudddumddduuuddddm"' | sort | uniq -c | li
+ 12 ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■  d
+  5 ■■■■■■■■■■■■                    u
+  2 ■■■■■                           m
+  1 ■■                              b
 ```
