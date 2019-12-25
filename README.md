@@ -1,6 +1,6 @@
 # li
 ```
-$ # li must be useful after classic "sort | uniq -c" combo
+$ # li should be useful after classic "sort | uniq -c" combo
 $ go get github.com/reinerRubin/li/cmd/li
 $ perl -le 'map { print } split "", "bddudddumddduuuddddm"' | sort | uniq -c | li
  12 ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■  d
